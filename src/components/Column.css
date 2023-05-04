@@ -1,0 +1,35 @@
+.column {
+    background: var(--COLOR-GRAY-DARK);
+    min-height: 20rem;
+    color: #fff;
+    width: 33%;
+    max-width: 20rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: dashed transparent 4px;
+}
+
+.column.drop {
+    border-color: white;
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleWrapper button {
+    all: unset;
+    color: black;
+    background: white;
+    border-radius: 4px;
+    height: fit-content;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.titleWrapper button:hover {
+    background-color: var(--COLOR-GRAY-LIGHT);
+}
